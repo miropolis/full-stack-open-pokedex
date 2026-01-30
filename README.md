@@ -6,9 +6,9 @@ Fork the repository to complete course exercises
 
 ## Commands
 
-Run docker container with Node 16, mount repository and expose required port 8080
+Run docker container with Node 22, mount repository and expose required port 8080
 
-`docker run -it --rm -v "c:\Users\mweissen\OneDrive - Capgemini\Desktop\repositories\full-stack-open-pokedex:/app" -w /app -p 8080:8080 --entrypoint sh node:16-alpine`
+`docker run -it --rm -v "c:\Users\mweissen\OneDrive - Capgemini\Desktop\repositories\full-stack-open-pokedex:/app" -w /app -p 8080:8080 --entrypoint sh node:22-bookworm`
 
 Start by running `npm install` inside the project folder
 
